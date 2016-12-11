@@ -21,6 +21,11 @@ public class Ball : MonoBehaviour {
 	
 	}
 
+    void OnCollisionEnter(Collision otherCollider)
+    {
+        SetBallColour();
+    }
+
     private void SetBallColour()
     {
         int index = Random.Range(0, ballMaterials.Length);
