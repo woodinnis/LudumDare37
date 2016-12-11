@@ -45,8 +45,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Cleaner\Cleaner.cs" />
-     <Compile Include="Assets\Dirt\Dirt.cs" />
+     <Compile Include="Assets\BallPit2D\Cleaner\Cleaner.cs" />
+     <Compile Include="Assets\BallPit2D\Dirt\Dirt.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
