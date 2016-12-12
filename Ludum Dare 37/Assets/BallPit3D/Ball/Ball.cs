@@ -5,6 +5,8 @@ public class Ball : MonoBehaviour {
 
     public Material[] ballMaterials;
 
+    private float clippingPlane = -5;
+
     private Collider ballCollider;
     private MeshRenderer ballMeshRenderer;
 
@@ -18,7 +20,7 @@ public class Ball : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+
 	}
 
     void OnCollisionEnter(Collision otherCollider)

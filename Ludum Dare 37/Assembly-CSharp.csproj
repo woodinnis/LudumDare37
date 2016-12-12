@@ -50,6 +50,7 @@
      <Compile Include="Assets\BallPit3D\Ball\Ball.cs" />
      <Compile Include="Assets\BallPit3D\Camera\GameCamera.cs" />
      <Compile Include="Assets\BallPit3D\Camera\thirdPersonCamera.cs" />
+     <Compile Include="Assets\BallPit3D\Cleanup\BallDetroyer.cs" />
      <Compile Include="Assets\BallPit3D\Player\Player.cs" />
      <Compile Include="Assets\BallPit3D\Player\gameMovement.cs" />
  <Reference Include="UnityEngine.UI">
