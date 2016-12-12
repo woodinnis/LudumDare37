@@ -25,12 +25,17 @@ public class Ball : MonoBehaviour {
 
     void OnCollisionEnter(Collision otherCollider)
     {
-        SetBallColour();
+        //SetBallColour();
     }
 
     private void SetBallColour()
     {
         int index = Random.Range(0, ballMaterials.Length);
         ballMeshRenderer.material = ballMaterials[index];
+    }
+
+    private void OnDestroy()
+    {
+        Debug.Log("Ball go Poof!");
     }
 }
