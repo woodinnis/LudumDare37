@@ -49,6 +49,7 @@
      <Compile Include="Assets\BallPit2D\Dirt\Dirt.cs" />
      <Compile Include="Assets\BallPit3D\Ball\Ball.cs" />
      <Compile Include="Assets\BallPit3D\Camera\GameCamera.cs" />
+     <Compile Include="Assets\BallPit3D\Camera\thirdPersonCamera.cs" />
      <Compile Include="Assets\BallPit3D\Player\Player.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
