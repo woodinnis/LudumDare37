@@ -29,6 +29,20 @@ public class thirdPersonCamera : MonoBehaviour {
         currentY -= Input.GetAxis("Mouse Y");
 
         currentY = Mathf.Clamp(currentY, Y_ANGLE_MIN, Y_ANGLE_MAX);
+
+        //  Camera Zoom controls
+        if (Input.GetAxis("Mouse ScrollWheel") > 0)
+        {
+                cam.fieldOfView--;
+        }
+        if (Input.GetAxis("Mouse ScrollWheel") < 0)
+        {
+            cam.fieldOfView++;
+        }
+
+        cam.fieldOfView = Mathf.Clamp(cam.fieldOfView, 15, 60);
+
+
     }
 
     private void LateUpdate()
