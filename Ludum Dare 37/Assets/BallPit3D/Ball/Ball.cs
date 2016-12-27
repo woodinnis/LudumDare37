@@ -10,17 +10,12 @@ public class Ball : MonoBehaviour {
     private Collider ballCollider;
     private MeshRenderer ballMeshRenderer;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
         ballCollider = GetComponent<Collider>();
         ballMeshRenderer = GetComponent<MeshRenderer>();
 
         SetBallColour();
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
 	}
 
     void OnCollisionEnter(Collision otherCollider)
@@ -34,8 +29,4 @@ public class Ball : MonoBehaviour {
         ballMeshRenderer.material = ballMaterials[index];
     }
 
-    private void OnDestroy()
-    {
-        Debug.Log("Ball go Poof!");
-    }
 }

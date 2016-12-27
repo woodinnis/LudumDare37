@@ -48,6 +48,7 @@
      <Compile Include="Assets\BallPit2D\Cleaner\Cleaner.cs" />
      <Compile Include="Assets\BallPit2D\Dirt\Dirt.cs" />
      <Compile Include="Assets\BallPit3D\Ball\Ball.cs" />
+     <Compile Include="Assets\BallPit3D\Ball\BallBlock.cs" />
      <Compile Include="Assets\BallPit3D\Camera\GameCamera.cs" />
      <Compile Include="Assets\BallPit3D\Camera\thirdPersonCamera.cs" />
      <Compile Include="Assets\BallPit3D\Cleanup\BallDetroyer.cs" />
