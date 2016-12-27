@@ -15,8 +15,8 @@ public class BallBlock : Ball {
     private int p_ballRowsHigh;
     private float p_ballsSpawnSpread;
 
-    [SerializeField]
-    private int totalBallCount;
+    [HideInInspector]
+    public int totalBallCount;
 
     private GameObject[] getCount;
 

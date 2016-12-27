@@ -45,6 +45,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BallCount.cs" />
      <Compile Include="Assets\BallPit2D\Cleaner\Cleaner.cs" />
      <Compile Include="Assets\BallPit2D\Dirt\Dirt.cs" />
      <Compile Include="Assets\BallPit3D\Ball\Ball.cs" />
