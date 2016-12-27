@@ -42,7 +42,7 @@ public class BallBlock : Ball {
             for(int j = 0; j < p_ballRowsHigh; j++)
             {
                 //  Z Axis
-                for(int k = 0; k < p_ballRowsLong; k++)
+                for(int k = 0; k < p_ballRowsWide; k++)
                 {
                     float radius = ballToClone.GetComponent<SphereCollider>().radius * p_ballsSpawnSpread;
                     
