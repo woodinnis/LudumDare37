@@ -8,10 +8,16 @@ public class gameMovement : MonoBehaviour {
     public float jumpSpeed = 8.0F;
     public float gravity = 20.0F;
 
-    private Vector3 moveDirection = Vector3.zero;
+    public Camera gameCamera;
 
+    private Vector3 moveDirection = Vector3.zero;
+    private Quaternion cameraRotation;
+
+    
     // Update is called once per frame
     void Update () {
+
+        cameraRotation = gameCamera.transform.localRotation;
 
         CharacterController controller = GetComponent<CharacterController>();
         /*
@@ -20,6 +26,9 @@ public class gameMovement : MonoBehaviour {
         float curSpeed = speed * Input.GetAxis("Vertical");
         controller.SimpleMove(forward * curSpeed);
         */
+
+        transform.localRotation = cameraRotation;
+
         if (controller.isGrounded)
         {
             moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
