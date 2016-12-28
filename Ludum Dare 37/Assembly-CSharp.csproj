@@ -55,6 +55,8 @@
      <Compile Include="Assets\BallPit3D\Cleanup\BallDetroyer.cs" />
      <Compile Include="Assets\BallPit3D\Player\Player.cs" />
      <Compile Include="Assets\BallPit3D\Player\gameMovement.cs" />
+     <Compile Include="Assets\BallPit3D\Weapon\Bullet.cs" />
+     <Compile Include="Assets\BallPit3D\Weapon\Weapon.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
